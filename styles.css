@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5rem;
+    line-height: 2;
+}
+
+.letter {
+    transition: color 1000ms;
+}
